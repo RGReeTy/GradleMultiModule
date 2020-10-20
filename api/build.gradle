@@ -1,0 +1,13 @@
+plugins {
+    id 'application'
+}
+
+
+application {
+    mainClassName = 'by.mjc.App'
+}
+
+
+dependencies {
+    compile project(':core')
+}
